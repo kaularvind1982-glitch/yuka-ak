@@ -33,3 +33,7 @@ for grocery_file in groceries_dir.iterdir():
         print(f"Error : {e}")
     
     print("Done.")
+
+
+# GPT Key
+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
