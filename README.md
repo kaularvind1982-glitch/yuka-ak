@@ -10,11 +10,13 @@ sudo apt install libtesseract-dev -y
 ```
 
 
-- Install Python package
+- Install Python packages
 
 ```bash
-pip install pytesseract --break-system-packages
+pip install pytesseract
+pip install dotenv openai
 ```
+
 
 
 

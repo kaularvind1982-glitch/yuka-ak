@@ -31,7 +31,7 @@ Requirements:
 response = client.chat.completions.create(
     model="gpt-4.1-mini",
     messages=[
-        {"role": "system", "content": system_prompt}
+        {"role": "system", "content": system_prompt},
         {"role": "user", "content": user_prompt}
     ]
 )
