@@ -1,1 +1,0 @@
-#Parse text files using AI & load to DuckDB 
