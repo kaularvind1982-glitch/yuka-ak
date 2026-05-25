@@ -12,7 +12,7 @@ This project goes beyond creating meal plan(s) based on what is in my refrigerat
 
 ## Getting Started
 
-1. Install Tesseract on the system
+- Install Tesseract on the system
 
 ```bash
 sudo apt install tesseract-ocr -y 
@@ -21,7 +21,7 @@ sudo apt install libtesseract-dev -y
 /usr/bin/tesseract
 ```
 
-1. Install Python & required packages
+- Install Python & required packages
 
 ```bash
 sudo apt-get update
@@ -30,12 +30,12 @@ pip install pytesseract
 pip install dotenv openai
 ```
 
-1. `recognize.py` transforms the grocery receipt(s) and blood test report(s) to .txt file(s) using tesseract ocr.
+- `recognize.py` transforms the grocery receipt(s) and blood test report(s) to .txt file(s) using tesseract ocr.
 
-1. `extract.py` sends the .txt file(s) generated previously to `deepseek-v4-pro` & formats the .txt file(s) 
+- `extract.py` sends the .txt file(s) generated previously to `deepseek-v4-pro` & formats the .txt file(s) 
 
-1. `recommend.py` sends a merged .txt file with both blood report and food items to `deepseek-v4-pro` & gets recommendation on nutrition (along with a disclaimer)
+- `recommend.py` sends a merged .txt file with both blood report and food items to `deepseek-v4-pro` & gets recommendation on nutrition (along with a disclaimer)
 
-1. Sample grocery receipt(s) and blood test report(s) images with no personal data are available under `images` folder
+- Sample grocery receipt(s) and blood test report(s) images with no personal data are available under `images` folder
 
-1. Outputs from various steps above are available under `outputs` folder
+- Outputs from various steps above are available under `outputs` folder
