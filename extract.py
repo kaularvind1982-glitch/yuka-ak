@@ -1,4 +1,4 @@
-#Parse text files using AI & load to DuckDB 
+#Parse text files using AI 
 import os
 from dotenv import load_dotenv
 from openai import OpenAI
@@ -18,15 +18,18 @@ medicalreports_dir_txt=Path(r"/home/arkaul/yuka-ak/work/medicalreports_txt")
 
 
 # Define System & User Prompts
-SYSTEM_PROMPT = """You are a helpful assistant that extracts and structures information from documents.
+SYSTEM_PROMPT = """You are an expert, multilingual & heplful assistant that extracts and structures information from documents
+Rules:
+1. Keep answers concise
+2. If information is missing, return null
+3. User production-grade best practices
 """
     
-USER_PROMPT = """Please analyze the following document and extract the list of items. Please 
-ignore everything else and return you response in a tabular format."""
+
 
 
 # Function to iterate over .txt file(s) & call AI
-def processfolder(folder_path):
+def processfolder(folder_path: str,user_prompt: str):
 
     processed_count = 0
     error_count = 0
@@ -42,7 +45,7 @@ def processfolder(folder_path):
             print(f"Error : {e}")
             error_count += 1
         
-        api_result = call_ai_with_prompts(folder_path,fileToProcess,content, SYSTEM_PROMPT, USER_PROMPT, api_key)
+        api_result = call_ai_with_prompts(folder_path,fileToProcess,content, SYSTEM_PROMPT, user_prompt, api_key)
     
     print(f"Successfully processed: {processed_count} files")
     print(f"Errors: {error_count} files")
@@ -63,7 +66,7 @@ def call_ai_with_prompts(folder_path:str, fileToProcess:str, content: str, syste
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": full_user_prompt}
         ],
-        "temperature": 0.7
+        "temperature": 0.5
     }
     
     try:
@@ -96,6 +99,24 @@ def call_ai_with_prompts(folder_path:str, fileToProcess:str, content: str, syste
             "error": str(e)
         }
 
+#Set the USER_PROMPT for grocery receipts
 
-processfolder(groceries_dir_txt)
-processfolder(medicalreports_dir_txt)
+
+USER_PROMPT = """Please analyze the following grocery receipt and extract the list of food items. 
+Requirements:
+1. Keep only the food item name
+2. Ignore everything else
+3. Respond in CSV/tabular format
+"""
+processfolder(groceries_dir_txt,USER_PROMPT)
+
+#Change the USER_PROMPT for medical reports
+
+USER_PROMPT = """Please analyze the following blood test report and extract the results. 
+Your blood test will count the different blood cell types and take other blood cell measurements. 
+Requirements:
+1. Keep the blood cell type & measurement
+2. Include the range from the report
+3. Respond in CSV/tabular format
+"""
+processfolder(medicalreports_dir_txt,USER_PROMPT)

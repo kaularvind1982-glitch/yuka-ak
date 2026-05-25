@@ -1,0 +1,53 @@
+```csv
+Food Item
+Fraise 500 g
+Pomme bicolore vrac
+Lipton Thé Menthe
+Gerblé sésame
+Muesli choco lait
+Oignon jaune 1.5kg
+Biscuits sésame et é
+Tuc Original x3
+Bio Muesli
+Sauce tomate au basi
+Nutella
+Sel fin verseuse
+Mandarine Orri vrac
+Oignon rouge 3 tétes
+Mini Babybel x9
+Avocat 3 fruits
+Concombre
+Hauts cuisse poulet
+Huile de tournesol
+Yaourts aux fruits
+Epinard 400g
+Fusilli HWG XXL
+Tortelloni premium
+Fruit de la passion
+Pain 400g
+Mimolette en tranche
+Champignon blanc
+Pomme Granny
+Banane
+Tomate cerise
+Biscuits miel
+Kiwi
+Gingembre vrac
+Romaine
+Lay's Chips Paysanne
+Tomate ronde 1Kg
+Citron vert
+FM Blanc Poulet x4
+Poivron Mix 500g
+Lavazza espresso
+Chou Fleur
+Aubergine
+Farine fluide
+Oeufs sol x10
+Framboise 125g
+Fricadelles
+Pain mie grde tranch
+Escargot aux raisins
+Lait demi-écrémé bio
+Haricots verts fins
+```

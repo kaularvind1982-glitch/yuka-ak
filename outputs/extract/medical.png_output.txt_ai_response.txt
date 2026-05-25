@@ -1,0 +1,13 @@
+```csv
+Test,Value,Unit,Reference Range,Notes
+Ferritine,"187,0","pg/L","30,0-400,0","Modification des valeurs de référence à compter du 03/11/2025"
+Ferritine,"420,8","pmol/L","67,5-900,0","Modification des valeurs de référence à compter du 03/11/2025"
+Sodium sérique,138,"mmol/L","136-145","Potentiométrie indirecte"
+Potassium sérique,"4,9","mmol/L","3,5-5,1","Changement de valeur de référence à partir du 13/01/2026 (plasma/sérum)"
+Bilirubine Totale,"8,3","mg/L","< 14,0","Conformément à la NABM, fractions libre et conjuguée réalisées si bilirubine totale supérieure"
+Bilirubine Totale,"14,2","µmol/L","< 23,9","Conformément à la NABM, fractions libre et conjuguée réalisées si bilirubine totale supérieure"
+Phosphatases alcalines,71,"U/L","40-129","Colorimétrie cinétique standardisée IFCC"
+ASAT (Transaminases TGO),16,"U/L","< 50","IFCC, avec phosphate de pyridoxal ; modification des valeurs de référence à compter du 03/11/2025"
+ALAT (Transaminases TGP),16,"U/L","< 50","IFCC, avec phosphate de pyridoxal"
+GGT (Gamma Glutamyl Transpeptidase),8,"U/L","< 60","Test colorimétrique enzymatique"
+```

@@ -1,0 +1,31 @@
+Ferritine #” 187,0 pg/L (30,0-400,0)
+(Test immunoturbidimétrique sur particules de latex) 420,8 pmol/L (67,5-900,0)
+Modification des valeurs de référence a compter du 03/11/2025.
+
+Sodium sérique ~ 138 mmol/L (136-145)
+
+(Potentiométrie indirecte)
+
+Potassium sérique “ 4,9 mmol/L (3,5-5,1)
+(Potentiométrie indirecte)
+Changement de valeur de référence a partir du 13/01/2026 en raison d'un changement du matrice (plasma/sérum)
+
+Bilirubine Totale ~ 8,3 mg/L (< 14,0)
+(Test colorimétrique) 14,2 umol/L (< 23,9)
+Conformément a la NABM, les fractions libre et conjuguée de la bilirubine ne sont réalisées qu'en cas de bilirubine totale supérie
+
+Phosphatases alcalines ~ 71 U/L (40-129)
+
+(Colorimétrie cinétique standardisée IFCC)
+
+ASAT (Transaminases TGO) * 16 U/L (< 50)
+
+(IFCC, avec phosphate de pyridoxal)
+Modification des valeurs de référence a compter du 03/11/2025.
+
+ALAT (Transaminases TGP) ~ 16 U/L (< 50)
+(IFCC, avec phosphate de pyridoxal)
+
+GGT (Gamma Glutamy! Transpeptidase) “ 8 U/L (< 60)
+
+(Test colorimétrique enzymatique)
