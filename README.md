@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This project goes beyond creating meal plan(s) based on what is in my refrigerator to what is in my blood test report and what am I eating. This project:
+This project goes beyond creating meal plan(s) based on what is in my refrigerator to what is in my blood test report and my grocery bills. This project:
 
 - uses Tesseract ocr https://tesseract-ocr.github.io/ to convert scanned images to .txt file(s)
  
